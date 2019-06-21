@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/about1"
+            android:icon="@drawable/inbox"
+            android:title="Inbox" />
+
+        <item
+            android:id="@+id/about2"
+            android:icon="@drawable/inbox"
+            android:title="Outbox" />
+
+        <item
+            android:id="@+id/about3"
+            android:icon="@drawable/inbox"
+            android:title="Send" />
+
+        <item
+            android:id="@+id/about4"
+            android:icon="@drawable/inbox"
+            android:title="Spam" />
+
+        <item
+            android:id="@+id/about5"
+            android:icon="@drawable/inbox"
+            android:title="Archeive" />
+    </group>
+    <group>
+        <item android:title="Other">
+            <menu>
+
+                <item
+                    android:id="@+id/Social"
+                    android:title="Social" />
+                <item
+                    android:id="@+id/Promotion"
+                    android:icon="@mipmap/ic_launcher"
+                    android:title="Promotion">
+
+                </item>
+            </menu>
+        </item>
+
+    </group>
+
+</menu>
